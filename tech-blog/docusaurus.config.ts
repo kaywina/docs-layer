@@ -2,7 +2,7 @@ import {Config} from '@docusaurus/types';
 import {themes as prismThemes} from 'prism-react-renderer';
 
 const config: Config = {
-  title: 'The Docs Layer',
+  title: 'The Docs Layer', 
   tagline: 'Technical documentation clean and simple.',
   url: 'https://kaywina.github.io',   // 🔹 change to your GitHub Pages URL later
   baseUrl: '/docs-layer/',
@@ -31,6 +31,10 @@ const config: Config = {
   themeConfig: {
     navbar: {
       title: 'The Docs Layer',
+      logo: {
+        alt: 'Doc Slayer Logo',
+        src: 'img/logo.png',
+      },
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
         {
