@@ -1,44 +1,26 @@
-import type {ReactNode} from 'react';
-import clsx from 'clsx';
+import React from 'react';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
 
-import styles from './index.module.css';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+export default function Home(): JSX.Element {
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+    <main style={{ padding: '4rem 1rem', maxWidth: 800, margin: '0 auto' }}>
+      <h1>The Docs Layer 🚀</h1>
+      <p>Technical documentation clean and simple.</p>
 
-export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
+      <ul>
+        <li>
+          <Link to="/blog/first-blog-post">First Short Post</Link>
+        </li>
+        <li>
+          <Link to="/blog/long-blog-post">Long Blog Post</Link>
+        </li>
+      </ul>
+
+      <p style={{ marginTop: '2rem' }}>
+        <Link className="button button--primary" to="/blog">
+          View All Posts
+        </Link>
+      </p>
+    </main>
   );
 }
