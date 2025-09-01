@@ -34,8 +34,9 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
+# Ignore full static build directory
+# Added instead of just /Release subdirectory for Compiled binary addons (https://nodejs.org/api/addons.html)
+build/
 
 # Dependency directories
 node_modules/
@@ -137,3 +138,6 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# macOS Finder cruft (ignore Desktop Services Store metadata)
+.DS_Store
