@@ -44,7 +44,7 @@ const config: Config = {
       style: 'dark',
       links: [],
     },
-    colorMode: {defaultMode: 'light', respectPrefersColorScheme: true},
+    colorMode: {defaultMode: 'light', respectPrefersColorScheme: true, disableSwitch: false},
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
