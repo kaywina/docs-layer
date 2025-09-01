@@ -1,12 +1,16 @@
-import React from 'react';
+import React, {JSX} from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 
 export default function Home(): JSX.Element {
   return (
-    <Layout title="Home" description="Landing Page">
+    <Layout>
+      <head>
+        <title>Home</title>
+        <meta name="description" content="The Docs Slayer Landing Page" />
+      </head>
       <main style={{ padding: '4rem 1rem', maxWidth: 800, margin: '0 auto' }}>
-        <h1>The Docs Layer 🚀</h1>
+        <h1>⚔️ The Docs Layer ⚔️</h1>
         <p>Technical documentation clean and simple.</p>
 
         <ul>
