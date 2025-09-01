@@ -4,8 +4,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config: Config = {
   title: 'The Docs Layer',
   tagline: 'Technical documentation clean and simple.',
-  url: 'https://your-site.com',   // 🔹 change to your GitHub Pages URL later
-  baseUrl: '/',
+  url: 'https://kaywina.github.io',   // 🔹 change to your GitHub Pages URL later
+  baseUrl: '/docs-layer/',
   favicon: 'img/favicon.ico',
 
   organizationName: 'kaywina', // 🔹 replace with GitHub user/org
