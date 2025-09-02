@@ -15,10 +15,7 @@ export default function Home(): JSX.Element {
 
         <ul>
           <li>
-            <Link to="/blog/first-blog-post">First Short Post</Link>
-          </li>
-          <li>
-            <Link to="/blog/long-blog-post">Long Blog Post</Link>
+            <Link to="/blog/welcome">Welcome</Link>
           </li>
         </ul>
 
