@@ -1,19 +1,44 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+technical-writing:
+  label: Technical Writing
+  permalink: /technical-writing
+  description: Insights, strategies, and reflections on the practice of technical writing.
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+docs-as-code:
+  label: Docs-as-Code
+  permalink: /docs-as-code
+  description: Exploring workflows, tools, and best practices for treating documentation like code.
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+ai:
+  label: AI
+  permalink: /ai
+  description: Artificial intelligence and its impact on writing, documentation, and communication.
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+artificial-intelligence:
+  label: Artificial Intelligence
+  permalink: /artificial-intelligence
+  description: Broader perspectives on AI tools, ethics, and applications.
+
+automation:
+  label: Automation
+  permalink: /automation
+  description: The promises and pitfalls of automating documentation and communication workflows.
+
+automating-documentation:
+  label: Automating Documentation
+  permalink: /automating-documentation
+  description: Action plans, costs, and trade-offs when trying to automate documentation roles.
+
+automating-saas-documentation:
+  label: Automating SaaS Documentation
+  permalink: /automating-saas-documentation
+  description: Special focus on automating user-facing SaaS docs, from setup costs to ongoing risks.
+
+communication:
+  label: Communication
+  permalink: /communication
+  description: Human-centered communication and the role of docs in aligning teams and products.
+
+documentation:
+  label: Documentation
+  permalink: /documentation
+  description: All things documentation—from strategy to tools to the people who make it work.

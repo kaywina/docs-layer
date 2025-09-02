@@ -15,10 +15,13 @@ export default function Home(): JSX.Element {
 
         <ul>
           <li>
-            <Link to="/blog/first-blog-post">First Short Post</Link>
+            <Link to="/blog/welcome">Welcome</Link>
           </li>
           <li>
-            <Link to="/blog/long-blog-post">Long Blog Post</Link>
+            <Link to="/blog/costs-of-automation">Costs of Automation</Link>
+          </li>
+          <li>
+            <Link to="/blog/automation-action-plan">Automation Action Plan</Link>
           </li>
         </ul>
 
