@@ -6,7 +6,7 @@ const config: Config = {
   tagline: 'Technical documentation clean and simple.',
   url: 'https://kaywina.github.io',   // 🔹 change to your GitHub Pages URL later
   baseUrl: '/docs-layer/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo-light.png',
 
   organizationName: 'kaywina', // 🔹 replace with GitHub user/org
   projectName: 'docs-layer',            // 🔹 replace with repo name
@@ -33,7 +33,8 @@ const config: Config = {
       title: 'The Docs Layer',
       logo: {
         alt: 'Doc Slayer Logo',
-        src: 'img/logo.png',
+        src: 'img/logo-light.png',
+        srcDark: 'img/logo-dark.png'
       },
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
