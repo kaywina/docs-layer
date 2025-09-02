@@ -17,6 +17,12 @@ export default function Home(): JSX.Element {
           <li>
             <Link to="/blog/welcome">Welcome</Link>
           </li>
+          <li>
+            <Link to="/blog/costs-of-automation">Costs of Automation</Link>
+          </li>
+          <li>
+            <Link to="/blog/automation-action-plan">Automation Action Plan</Link>
+          </li>
         </ul>
 
         <p style={{ marginTop: '2rem' }}>
