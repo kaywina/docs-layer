@@ -1,9 +1,10 @@
 ---
 slug: automation-action-plan
-title: Tech Writing Automation by the Numbers
+title: Automating the Tech Writer Pipeline - By the Numbers
 authors: [kaywin]
 tags: [
   technical-writing,
+  tech-writer,
   docs-as-code,
   ai,
   communication,

@@ -3,6 +3,11 @@ technical-writing:
   permalink: /technical-writing
   description: Insights, strategies, and reflections on the practice of technical writing.
 
+technical-writer:
+  label: Technical Writer
+  permalink: /technical-writer
+  description: The role and responsibilities of a technical communications specialist.
+
 docs-as-code:
   label: Docs-as-Code
   permalink: /docs-as-code
@@ -42,3 +47,8 @@ documentation:
   label: Documentation
   permalink: /documentation
   description: All things documentation—from strategy to tools to the people who make it work.
+
+mkdocs:
+  label: MkDocs
+  permalink: /mkdocs
+  description: Open-source static site generator for publishing technical communications.
