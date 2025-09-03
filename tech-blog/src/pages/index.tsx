@@ -2,8 +2,8 @@ import React, {JSX} from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 
-const heroAltText = `Black-and-white line art logo of a girl with long hair
-standing on a hill, holding a shield and sword, facing a fierce dragon.
+const heroAltText = `Black-and-white line art Docs Layer logo of a girl with long hair
+in a dress standing on a hill, holding a shield and sword, facing a fierce dragon.
 The dragon breathes fire made of binary code (ones and zeros), symbolizing
 overwhelming digital information. The girl’s shield deflects the flame,
 while her sword represents readiness to cut through complexity. The dragon
@@ -21,12 +21,12 @@ export default function Home(): JSX.Element {
       </head>
       <main style={{ padding: '1.5rem', maxWidth: 800, margin: '0 auto' }}>
         <h1>⚔️ The Docs Layer ⚔️</h1>
-        <img src="img/hero.png" alt={heroAltText} width="256"></img>
+        <img src="img/hero.png" title= {heroAltText} alt={heroAltText} width="256"></img>
         <p>Technical documentation clean and simple.</p>
-        <Link to="/blog/welcome">Welcome</Link>
+        <Link to="/blog/welcome">A Welcome from the Author</Link>
         <p style={{ marginTop: "1.5rem" }}>
           <Link className="button button--primary" to="/blog">
-            View All Posts
+            View Posts
           </Link>
         </p>
       </main>
