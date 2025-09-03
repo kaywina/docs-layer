@@ -70,6 +70,10 @@ You should see output like:
 mkdocs, version 1.6.x from ...
 ```
 
+:::tip
+You may need to repeat steps 2 and 3 when switching between branches in Git, unless you use a global environment manager like **pipx** or **Conda**.
+:::
+
 ---
 
 ## Step 3: Scaffold a New Project
