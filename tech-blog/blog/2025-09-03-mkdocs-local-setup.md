@@ -1,5 +1,5 @@
 ---
-slug: costs-of-automation
+slug: mkdocs-local-setup
 title: Scaffolding Your Docs - Getting Started with MkDocs and Material
 authors: [kaywin]
 tags: [technical-writing, docs-as-code, mkdocs]
