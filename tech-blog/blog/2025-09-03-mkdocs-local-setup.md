@@ -1,8 +1,8 @@
 ---
-slug: costs-of-automation
+slug: mkdocs-local-setup
 title: Scaffolding Your Docs - Getting Started with MkDocs and Material
 authors: [kaywin]
-tags: [technical-writing, docs-as-code, mkdocs]
+tags: [technical-writing, docs-as-code, mkdocs, documentation]
 ---
 
 Before we automate deployments or build fancy pipelines, let’s start with the basics: getting a  MkDocs project scaffolded on your local machine.
