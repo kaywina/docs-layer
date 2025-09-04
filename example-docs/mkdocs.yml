@@ -1,6 +1,16 @@
 site_name: Example Docs Site
+repo_url: https://github.com/kaywina/docs-layer
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
+  - Pipeline:
+      - Overview: pipeline/overview.md
