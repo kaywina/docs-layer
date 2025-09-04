@@ -44,7 +44,7 @@ source .venv/bin/activate   # macOS/Linux
 As long as an up-to-date version of Pip and Python version 3.8 or higher is installed, you can proceed. Otherwise you'll need to update and install your MkDocs dependencies.
 
 :::tip
-If you're on Windows Powershell instead of macOS or Linux, then type: ```bash .venv\Scripts\activate``` 
+If you're using Windows Powershell instead of macOS or Linux the command will be different.
 :::
 
 ---
