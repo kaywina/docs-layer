@@ -1,6 +1,8 @@
 import React, {JSX} from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 const heroAltText = `Black-and-white line art Docs Layer logo of a girl with long hair
 in a dress standing on a hill, holding a shield and sword, facing a fierce dragon.
@@ -21,7 +23,12 @@ export default function Home(): JSX.Element {
       </head>
       <main style={{ padding: '1.5rem', maxWidth: 800, margin: '0 auto' }}>
         <h1>⚔️ The Docs Layer ⚔️</h1>
-        <img src="img/hero.png" title= {heroAltText} alt={heroAltText} width="256"></img>
+        <ThemedImage title= {heroAltText} alt={heroAltText} width="256"
+          sources={{
+            light: useBaseUrl("/img/hero.png"),
+            dark: useBaseUrl("/img/hero-inverted.png"),
+          }}
+        />
         <p>Technical documentation clean and simple.</p>
         <Link to="/blog/welcome">Welcome Note from the Author</Link>
         <p style={{ marginTop: "1.5rem" }}>
