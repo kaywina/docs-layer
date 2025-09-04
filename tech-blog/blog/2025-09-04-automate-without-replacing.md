@@ -7,6 +7,10 @@ tags: [technical-writing, docs-as-code, mkdocs, automation, automating-documenta
 
 *For the past decade, “automation” has been a loaded word in tech writing circles. To some, it sounds like a promise of efficiency. To others, it sounds like a threat: will scripts and bots replace the need for writers altogether? My experience says otherwise. Automation is powerful but only when it serves the human work of communication, not when it tries to replace it.*
 
+:::tip
+Automation doesn’t replace technical writers — it removes friction so they can focus on clarity, structure, and user empathy.
+:::
+
 ---
 
 ## The Case for Automation in Docs
@@ -40,6 +44,29 @@ The result?
 - A clear paper trail of changes.
 
 The writer isn’t automated away — they’re supported. They spend less time wrangling environments and more time ensuring the docs are accurate and readable.
+
+For example, here’s a simple GitHub Actions workflow that builds a docs preview every time someone opens a pull request. It’s less than 20 lines of YAML, but it saves hours of back-and-forth during reviews:
+
+```yaml title="YAML"
+name: Build Docs Preview
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+      - run: npm run build
+```
+
+The point isn’t to master YAML — it’s to give your stakeholders a preview link instead of a wall of Markdown.
 
 ---
 
@@ -75,4 +102,4 @@ Automation isn’t the end of technical writing. It’s the beginning of a more 
 
 When writers aren’t bogged down by build errors or manual publishing, they have more energy for the work that actually moves the needle: making complex systems usable.
 
-And that’s not something a script can do.
+In the next post, I’ll share what it looks like to set up a lightweight docs-as-code workflow without going full engineer.
