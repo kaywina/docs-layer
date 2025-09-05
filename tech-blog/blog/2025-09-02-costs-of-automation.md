@@ -9,6 +9,9 @@ Automation is one of the great promises of our industry: faster release cycles, 
 
 But in the rush to reduce costs, organizations often overlook what automation actually costs. Not just in licensing fees or API calls, but in hidden expenses that surface long after the “savings” have been booked.
 
+![Mindmap diagram showing the true costs of automating technical writing, including categories like Documentation Without Context, Maintenance Debt, Knowledge Drain, Ethical & Brand Risk, and False Savings, each with specific downstream impacts.](/img/blog/automation-cost-mindmap.png "True Cost of Automating Technical Writing")
+*Fig 1. Detailed mindmap of costs of automating technical writing*
+
 ---
 
 ## 1. Documentation Without Context
