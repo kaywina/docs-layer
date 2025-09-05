@@ -9,7 +9,7 @@ For years, documentation teams have been told to prove their value with numbers.
 
 If your goal is to show that documentation is more than a cost center, you’ll need to measure what really matters.
 
-![Diagram comparing vanity metrics (page views, click counts, top articles) with business value metrics (support deflection, time-to-first-success, onboarding speed, feature adoption).](/img/blog/measuring-docs-impact.png)  
+![Diagram comparing vanity metrics (page views, click counts, top articles) with business value metrics (support deflection, time-to-first-success, onboarding speed, feature adoption).](/img/blog/measuring-docs-impact.svg)  
 *Fig 1. Diagram comparing vanity metrics to business outcomes.*
 
 ---
