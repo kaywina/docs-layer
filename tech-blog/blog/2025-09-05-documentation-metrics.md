@@ -10,7 +10,9 @@ For years, documentation teams have been told to prove their value with numbers.
 If your goal is to show that documentation is more than a cost center, you’ll need to measure what really matters.
 
 ![Diagram comparing vanity metrics (page views, click counts, top articles) with business value metrics (support deflection, time-to-first-success, onboarding speed, feature adoption).](/img/blog/measuring-docs-impact.png)  
-*Figure 1. Measuring Docs Impact: moving beyond vanity metrics toward business-aligned outcomes.*
+*Fig 1. Diagram comparing vanity metrics to business outcomes.*
+
+---
 
 ## Why Vanity Metrics Fail
 
@@ -19,6 +21,8 @@ Page views can spike for the wrong reasons: maybe an outage drove thousands of c
 Click counts don’t prove comprehension. High engagement with a single page could just as easily mean the content is confusing and requires rereading.
 
 If you stop at vanity metrics, you risk reinforcing the idea that docs are only nice-to-have, not essential infrastructure.
+
+---
 
 ## Metrics That Actually Matter
 
@@ -36,6 +40,8 @@ How long does it take a new user—or a new employee—to get productive? If doc
 - Feature adoption rates
 Documentation that clearly explains new functionality can drive uptake. Instead of “our docs got 5,000 views,” you can say, “our docs helped adoption of Feature X increase by 20%.”
 
+---
+
 ## Showing Strategic Alignment
 
 When docs are framed through the lens of business outcomes, they stop being invisible. Instead of saying “the knowledge base had 40,000 page views last quarter,” you can say:
@@ -46,9 +52,13 @@ When docs are framed through the lens of business outcomes, they stop being invi
 
 These statements tie directly to cost savings, revenue acceleration, and customer satisfaction—the things leaders actually care about.
 
+---
+
 ## Beyond the Numbers
 
 Not everything valuable can be quantified. Developer trust, customer confidence, and reduced frustration are harder to measure but no less important. Pair your metrics with qualitative feedback (customer quotes, survey results, usability tests) to show the full story.
+
+---
 
 ## The Takeaway
 

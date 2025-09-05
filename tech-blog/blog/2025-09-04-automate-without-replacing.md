@@ -5,7 +5,7 @@ authors: [kaywin]
 tags: [technical-writing, docs-as-code, mkdocs, automation, automating-documentation]
 ---
 
-*For the past decade, “automation” has been a loaded word in tech writing circles. To some, it sounds like a promise of efficiency. To others, it sounds like a threat: will scripts and bots replace the need for writers altogether? My experience says otherwise. Automation is powerful but only when it serves the human work of communication, not when it tries to replace it.*
+For the past decade, “automation” has been a loaded word in tech writing circles. To some, it sounds like a promise of efficiency. To others, it sounds like a threat: will scripts and bots replace the need for writers altogether? My experience says otherwise. Automation is powerful but only when it serves the human work of communication, not when it tries to replace it.
 
 :::tip
 Automation doesn’t replace technical writers — it removes friction so they can focus on clarity, structure, and user empathy.
