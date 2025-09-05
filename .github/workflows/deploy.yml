@@ -30,7 +30,7 @@ jobs:
           cache-dependency-path: tech-blog/package-lock.json
 
       - run: corepack enable
-      - run: npm install
+      - run: npm ci
       - run: npm run build
 
       - name: Upload Pages artifact
