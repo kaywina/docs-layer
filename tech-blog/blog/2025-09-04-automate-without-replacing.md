@@ -102,4 +102,4 @@ Automation isn’t the end of technical writing. It’s the beginning of a more 
 
 When writers aren’t bogged down by build errors or manual publishing, they have more energy for the work that actually moves the needle: making complex systems usable.
 
-In the next post, I’ll share what it looks like to set up a lightweight docs-as-code workflow without going full engineer.
+In the next article, we'll look at what which metrics are useful, and which aren't, for determining the value of documentation.
