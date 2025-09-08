@@ -11,6 +11,9 @@ const config: Config = {
   organizationName: 'kaywina', // 🔹 replace with GitHub user/org
   projectName: 'docs-layer',            // 🔹 replace with repo name
 
+  themes: ['@docusaurus/theme-mermaid'],
+  markdown: { mermaid: true },
+
   presets: [
     [
       'classic',
@@ -53,6 +56,9 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    mermaid: {
+      theme: { light: 'light', dark: 'dark' },
     },
   },
 };
