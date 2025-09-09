@@ -36,7 +36,10 @@ For this tutorial, we're using the [OpenAI spec for the Zendesk Help Center API]
 Zendesk is a popular customer support platform used by businesses to manage requests, FAQs, and self-service resources. Its Help Center product powers searchable knowledge bases and community forums, while the Zendesk APIs let teams programmatically create, update, and organize content. For technical writers, developers, or support engineers, these APIs are a way to automate documentation workflows, sync data across tools, or extend Zendesk beyond its web interface.
 
 :::tip
-Many other vendors provide a downloadable OpenAPI spec. You can apply the steps in this article to any of them.
+If you want to click around the endpoints before coding, open the [Swagger Editor](https://editor.swagger.io/) and paste in the contents of your OpenAPI YAML/JSON file. You'll get interactive docs for the API which you can explore.
+
+
+Many other vendors provide a downloadable OpenAPI spec. You can use Swagger UI to explore those, and apply the steps in this article to any of them.
 :::
 
 ---
@@ -73,7 +76,7 @@ pip install openapi-python-client
 Save the downloaded OpenAI spec into your project, for example as `openapi/oas.yaml`.
 
 :::tip
-If you haven't yet download an OpenAI file, try using the one for the [Zendesk Help Center](https://developer.zendesk.com/api-reference/help_center/help-center-api/introduction/#download-openapi-file).
+If you haven't downloaded an OpenAI file yet, try using the one for the [Zendesk Help Center](https://developer.zendesk.com/api-reference/help_center/help-center-api/introduction/#download-openapi-file).
 :::
 
 Some additional notes:
@@ -121,11 +124,79 @@ Congratulations! You've completed creating a Python client using Swagger!
 
 ---
 
-## Optional: Peak inside and/or view in Swagger UI
+## Optional: Peak inside the API
 
 Now that you've installed the Python client, you can try running a short script that lists what the generator produced. This works even if you don’t have an account or credentials:
 
 ```python title="Python"
+# examples/what_got_generated.py
+import pkgutil
+import importlib
+import sys
 
+# change this to the actual package name printed by the generator
+PACKAGE = "help_center_api_client"
+
+def list_submodules(package_name: str):
+    pkg = importlib.import_module(package_name)
+    print(f"Top-level package: {package_name}")
+    for m in pkgutil.iter_modules(pkg.__path__):
+        print(" -", m.name)
+
+    # The generator usually exposes operations under <pkg>.api.<tag>
+    api_pkg_name = f"{package_name}.api"
+    try:
+        api_pkg = importlib.import_module(api_pkg_name)
+        print(f"\nAPI modules in {api_pkg_name}:")
+        for m in pkgutil.iter_modules(api_pkg.__path__):
+            print(" -", m.name)
+    except ModuleNotFoundError:
+        print("\nNo .api package found (this can vary by spec and generator version).")
+
+if __name__ == "__main__":
+    list_submodules(PACKAGE)
 ```
 
+Then run the script with:
+
+```bash title="Bash"
+python examples/what_got_generated.py
+```
+
+You’ll see the API modules (grouped by “tags” from the spec) and supporting packages like models and types.
+
+For the Zendesk Help Center API, the output will look like:
+
+![Top-level contents of the Zendesk Help Center API](/img/blog/peek-api-contents.png)
+
+---
+
+### What we did and why it matters
+
+Here's a summary of your learnings from this tutorial:
+- OpenAPI/Swagger is the contract (between your Python client and the API).
+- `openapi-python-client` turned the contract into a typed Python package.
+- You installed and inspected that package locally without touching a live server.
+
+This is the heart of modern API work: treat the spec as a source of truth, then generate assets (clients, tests, docs) from it.
+
+---
+## Common pitfalls & quick fixes
+
+*I don’t see the package I expected.*
+The output folder name comes from the spec’s info.title. Use `--output-path` to control it.
+
+*ImportError: can’t import my package.*
+Make sure you activated the virtual environment and ran `pip install -e ./help_center_api_client`(or the whatever the correct path is for the OpenAPI spec you are using).
+
+*The generator warned about the spec.*
+Some specs have minor issues (e.g., anonymous schemas). Try:
+```bash title="Bash"
+openapi-python-client generate --path openapi/oas.yaml --fail-on-warning
+```
+Follow the line number hints, or ask your API owner for a cleaned spec.
+
+*How do I actually call the API?*
+You’ll typically create a `Client` or `AuthenticatedClient` from the generated package, set `base_url`, and pass credentials (e.g., Basic auth or OAuth - whatever the spec declares).
+
+We’ll cover mock server calls in a later post.
