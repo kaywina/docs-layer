@@ -2,12 +2,12 @@
 slug: zendesk-python-client
 title: Create a Zendesk Python Client with Open AI / Swagger
 authors: [kaywin]
-tags: [openai, python, swagger, api, docs-as-code]
+tags: [openapi, python, swagger, api, docs-as-code]
 ---
 
-Sometimes as a technical writer, you'll need to connect to REST APIs. APIs allow you to programatically pull information from other knowledge centers. This can be especially useful for docs-as-code automation, where you what to read and/or write help center content via code.
+Sometimes as a technical writer, you'll need to connect to REST APIs. APIs allow you to programatically pull information from other knowledge centers. This can be especially useful for docs-as-code automation, when you want to read and/or write help center content via code.
 
-If you’ve ever seen an API described as “OpenAPI/Swagger,” that means there’s a machine-readable file (YAML/JSON) that precisely defines the endpoints, parameters, and responses for the API.You should know - you can feed that file into a generator and get a typed Python client library—ready to import in a script.
+If you’ve ever seen an API described as “OpenAPI/Swagger,” that means there’s a machine-readable file (YAML/JSON) that precisely defines the endpoints, parameters, and responses for the API. You can feed that file into a generator and get a typed Python client library ready to import in a script.
 
 This post shows the minimal path from zero to usable Python client, for the [Zendesk Help Center API](https://developer.zendesk.com/api-reference/help_center/help-center-api/introduction/). We’ll browse the spec, generate a client, install the client locally, and peek inside the API - all without requiring a Zendesk account.
 
@@ -31,7 +31,7 @@ Before you begin, you'll need the following:
 
 Please note - We’re intentionally **not** using Docker, Java, or Node here. Just Python, to keep things lightweight and simple.
 
-For this tutorial, we're using the [OpenAI spec for the Zendesk Help Center API](https://developer.zendesk.com/api-reference/help_center/help-center-api/introduction/#download-openapi-file). Visit the link to download it.
+For this tutorial, we're using the [OpenAPI spec for the Zendesk Help Center API](https://developer.zendesk.com/api-reference/help_center/help-center-api/introduction/#download-openapi-file). Visit the link to download it.
 
 Zendesk is a popular customer support platform used by businesses to manage requests, FAQs, and self-service resources. Its Help Center product powers searchable knowledge bases and community forums, while the Zendesk APIs let teams programmatically create, update, and organize content. For technical writers, developers, or support engineers, these APIs are a way to automate documentation workflows, sync data across tools, or extend Zendesk beyond its web interface.
 
@@ -75,10 +75,10 @@ pip install openapi-python-client
 
 ### Step 3: Add your OpenAPI spec file
 
-Save the downloaded OpenAI spec into your project, for example as `openapi/oas.yaml`.
+Save the downloaded OpenAPI spec into your project, for example as `openapi/oas.yaml`.
 
 :::tip
-If you haven't downloaded an OpenAI file yet, try using the one for the [Zendesk Help Center](https://developer.zendesk.com/api-reference/help_center/help-center-api/introduction/#download-openapi-file).
+If you haven't downloaded an OpenAPI file yet, try using the one for the [Zendesk Help Center](https://developer.zendesk.com/api-reference/help_center/help-center-api/introduction/#download-openapi-file).
 :::
 
 Some additional notes:
@@ -107,14 +107,14 @@ openapi-python-client generate --path openapi/oas.yaml --output-path client
 If you do, your package will be under the `client/` directory instead.
 
 :::tip
-If you are using a different OpenAI spec, or renamed the file, remember to change the filename in your Bash commands to match the name of your particular file.
+If you are using a different OpenAPI spec, or renamed the file, remember to change the filename in your Bash commands to match the name of your particular file.
 :::
 
 ---
 
 ### Step 5: Install the generated client locally
 
-Run the following line to install and editable (dev) version of the client:
+Run the following line to install an editable (dev) version of the client:
 
 ```bash title="Bash"
 pip install -e ./help_center_api_client
@@ -126,7 +126,7 @@ Congratulations! You've completed creating a Python client using Swagger!
 
 ---
 
-## Optional: Peak inside the API
+## Optional: Peek inside the API
 
 Now that you've installed the Python client, you can try running a short script that lists what the generator produced. This works even if you don’t have an account or credentials:
 
@@ -176,7 +176,7 @@ For the Zendesk Help Center API, the output will look like:
 ## What we did and why it matters
 
 Here's a summary of your learnings from this tutorial:
-- OpenAPI/Swagger is the contract (between your Python client and the API).
+- OpenAPI/Swagger is the contract between your Python client and the API.
 - `openapi-python-client` turned the contract into a typed Python package.
 - You installed and inspected that package locally without touching a live server.
 
@@ -189,7 +189,7 @@ This is the heart of modern API work: treat the spec as a source of truth, then 
 The output folder name comes from the spec’s info.title. Use `--output-path` to control it.
 
 *ImportError: can’t import my package.*
-Make sure you activated the virtual environment and ran `pip install -e ./help_center_api_client`(or the whatever the correct path is for the OpenAPI spec you are using).
+Make sure you activated the virtual environment and ran `pip install -e ./help_center_api_client` (or the whatever the correct path is for the OpenAPI spec you are using).
 
 *The generator warned about the spec.*
 Some specs have minor issues (e.g., anonymous schemas). Try:
