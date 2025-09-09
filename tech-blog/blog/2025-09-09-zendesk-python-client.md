@@ -44,7 +44,9 @@ Many other vendors provide a downloadable OpenAPI spec. You can use Swagger UI t
 
 ---
 
-## Step 1: Set up your project environment
+## Step-by-Step Tutorial
+
+### Step 1: Set up your project environment
 
 First, you will need to create a working folder and virtual environment for your project.
 
@@ -63,7 +65,7 @@ python -m pip install -U pip
 
 ---
 
-## Step 2: Install a Python-native OpenAPI client generator
+### Step 2: Install a Python-native OpenAPI client generator
 
 We’ll use openapi-python-client (a pure-Python tool) to avoid Docker or Java.
 
@@ -71,7 +73,7 @@ We’ll use openapi-python-client (a pure-Python tool) to avoid Docker or Java.
 pip install openapi-python-client
 ```
 
-## Step 3: Add your OpenAPI spec file
+### Step 3: Add your OpenAPI spec file
 
 Save the downloaded OpenAI spec into your project, for example as `openapi/oas.yaml`.
 
@@ -85,7 +87,7 @@ Some additional notes:
 
 ---
 
-## Step 4: Generate the Python client
+### Step 4: Generate the Python client
 
 From your project root directory, run:
 ```bash title="Bash"
@@ -110,7 +112,7 @@ If you are using a different OpenAI spec, or renamed the file, remember to chang
 
 ---
 
-## Step 5: Install the generated client locally
+### Step 5: Install the generated client locally
 
 Run the following line to install and editable (dev) version of the client:
 
@@ -171,7 +173,7 @@ For the Zendesk Help Center API, the output will look like:
 
 ---
 
-### What we did and why it matters
+## What we did and why it matters
 
 Here's a summary of your learnings from this tutorial:
 - OpenAPI/Swagger is the contract (between your Python client and the API).
@@ -199,4 +201,4 @@ Follow the line number hints, or ask your API owner for a cleaned spec.
 *How do I actually call the API?*
 You’ll typically create a `Client` or `AuthenticatedClient` from the generated package, set `base_url`, and pass credentials (e.g., Basic auth or OAuth - whatever the spec declares).
 
-We’ll cover mock server calls in a later post.
+We’ll cover mock server calls in a later post. If you're curious, you can see the full code for this tutorial in [this GitHub repo](https://github.com/kaywina/zendesk-help-center-python-client).
