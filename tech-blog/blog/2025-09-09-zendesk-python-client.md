@@ -1,6 +1,6 @@
 ---
 slug: zendesk-python-client
-title: Create a Zendesk Python Client with Open AI / Swagger
+title: Create a Zendesk Python Client with OpenAPI / Swagger
 authors: [kaywin]
 tags: [openapi, python, swagger, api, docs-as-code]
 ---
