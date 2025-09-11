@@ -64,3 +64,38 @@ Why port 4010? That's the default mock server port, that's unlikely to conflict 
 :::
 
 ---
+
+## Step 3: Point your Python client at the mock
+
+In our previous article, we generated an install a Python client (e.g. help_center_api_client). Now, set its base_url to the mock serve instead of Zendesk.
+
+You can do this inside an examples script:
+
+```python title="Python"
+# examples/demo_mock_call.py
+import base64
+from help_center_api_client import Client
+from help_center_api_client.api.articles import list_articles
+
+# 1) Set the base URL
+BASE_URL = "http://127.0.0.1:4010"
+
+# 2) Dummy Basic auth header
+creds = base64.b64encode(b"dummy:dummy").decode("ascii")
+headers = {"Authorization": f"Basic {creds}"}
+
+client = Client(base_url=BASE_URL, headers=headers)
+
+# 3) Make the call (Prism requires locale in this Zendesk spec)
+resp_detailed = list_articles.sync_detailed(client=client, locale="en-us")
+
+print("STATUS:", resp_detailed.status_code)
+print("PARSED TYPE:", type(resp_detailed.parsed))
+print("PARSED VALUE:", resp_detailed.parsed)
+```
+
+Using the Zendesk API from our previous article, you should see Status 200 and Lorem Ipsum text in the parsed value.
+
+:::tip
+If you run into problems, you may need to set up your virtual environment again. Run `python3 -m venv .venv1` and `source .venv/bin/activate` then `pip install help-center-api-client`. Make sure you are in the same directory as your `pyproject.toml` file!
+:::
