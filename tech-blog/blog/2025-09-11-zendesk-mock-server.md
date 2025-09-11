@@ -41,3 +41,18 @@ prism --help
 
 ---
 
+## Step 2: Start the mock server
+
+Assuming your spec is saved as `openapi/oas.yaml`:
+```bash title="Bash"
+prism mock openapi/oas.yaml --port 4010
+```
+
+Prism will start serving endpoints locally:
+```bash
+http://127.0.0.1:4010
+```
+
+Every request returns JSON resposes shaped by the schema (and any example fields) in your spec.
+
+---
