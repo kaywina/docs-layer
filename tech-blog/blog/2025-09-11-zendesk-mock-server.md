@@ -39,6 +39,10 @@ Check it’s available:
 prism --help
 ```
 
+:::tip
+The `g' flag installs Prism globally, so you can run it from any directory.
+:::
+
 ---
 
 ## Step 2: Start the mock server
@@ -54,5 +58,9 @@ http://127.0.0.1:4010
 ```
 
 Every request returns JSON resposes shaped by the schema (and any example fields) in your spec.
+
+:::tip
+Why port 4010? That's the default mock server port, that's unlikely to conflict with common local services. If you dont specify a port, Prism uses 4010 by default. You can specify a different port using the `--port` flag.
+:::
 
 ---
