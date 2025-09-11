@@ -24,3 +24,20 @@ Mock servers are incredibly useful for technical writers, developers, and tester
 All you need is the OpenAPI spec you already have!
 
 ---
+
+## Step 1: Install Prism (mock server tool)
+
+[Prism](https://github.com/stoplightio/prism) is a lightweight way to turn an OpenAPI spec into a running mock API.
+
+Install via npm (Node.js required):
+```bash title="Bash"
+npm install -g @stoplight/prism-cli
+```
+
+Check it’s available:
+```bash title="Bash"
+prism --help
+```
+
+---
+
