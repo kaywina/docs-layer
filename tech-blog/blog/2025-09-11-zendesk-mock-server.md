@@ -10,7 +10,7 @@ In our [previous article](https://kaywina.github.io/docs-layer/blog/zendesk-pyth
 In this follow-up, we’ll take things further:
 - Run a local mock server from the same OpenAPI file, so you get realistic JSON responses without an account.
 - Point your generated Python client at the mock server.
-- Make a real server call with `sync_detailed()` that returns sample data.
+- Make a server call with `sync_detailed()` that returns sample data.
 
 ---
 
@@ -42,7 +42,7 @@ prism --help
 ```
 
 :::tip
-The `g' flag installs Prism globally, so you can run it from any directory.
+The `-g` flag installs Prism globally, so you can run it from any directory.
 :::
 
 ---
@@ -59,10 +59,10 @@ Prism will start serving endpoints locally:
 http://127.0.0.1:4010
 ```
 
-Every request returns JSON resposes shaped by the schema (and any example fields) in your spec.
+Every request returns JSON responses shaped by the schema (and any example fields) in your spec.
 
 :::tip
-Why are we using port 4010? It's the default mock server port, which is unlikely to conflict with common local services. You can specify a different port using the `--port` flag. If you dont specify a port, Prism uses 4010 by default.
+Why are we using port 4010? It's the default mock server port, which is unlikely to conflict with common local services. You can specify a different port using the `--port` flag. If you don't specify a port, Prism uses 4010 by default.
 :::
 
 ---
@@ -96,10 +96,10 @@ print("PARSED TYPE:", type(resp_detailed.parsed))
 print("PARSED VALUE:", resp_detailed.parsed)
 ```
 
-Using the Zendesk API from our previous article, you should see Status 200 and Lorem Ipsum text in the parsed value.
+Using the Zendesk API from our previous article, you should see `STATUS: 200` and placeholder (Lorem Ipsum) text in the parsed value.
 
 :::tip
-If you run into problems, you may need to set up your virtual environment again. Run `python3 -m venv .venv1` and `source .venv/bin/activate` then `pip install help-center-api-client`. Make sure you are in the same directory as your `pyproject.toml` file!
+If you run into problems, you may need to set up your virtual environment again. Run `python3 -m venv .venv` and `source .venv/bin/activate` then `pip install help-center-api-client`. Make sure you are in the same directory as your `pyproject.toml` file!
 :::
 
 ---
@@ -112,4 +112,4 @@ Here's a summary of what you did in this tutorial:
 - Pointed the generated Python client at it.
 - Wrote an example script to make a real call.
 
-You now have a workflow to generate a Python client from an OpenAPI file and spin up a mock server, that works to test real calls without a vendor account!
+You now have a workflow to generate a Python client from an OpenAPI file and spin up a mock server, that lets you test real calls without a vendor account!
