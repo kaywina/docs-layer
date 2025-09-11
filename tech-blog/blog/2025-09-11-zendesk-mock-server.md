@@ -99,3 +99,15 @@ Using the Zendesk API from our previous article, you should see Status 200 and L
 :::tip
 If you run into problems, you may need to set up your virtual environment again. Run `python3 -m venv .venv1` and `source .venv/bin/activate` then `pip install help-center-api-client`. Make sure you are in the same directory as your `pyproject.toml` file!
 :::
+
+---
+
+## What we did and why it matters
+
+Here's a summary of what you did in this tutorial:
+
+- Ran a mock server from the OpenAPI spec.
+- Pointed the generated Python client at it.
+- Wrote an example script to make a real call.
+
+You now have a workflow to generate a Python client from an OpenAPI file and spin up a mock server, that works to test real calls without a vendor account!
