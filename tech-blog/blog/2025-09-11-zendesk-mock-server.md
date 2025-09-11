@@ -1,6 +1,6 @@
 ---
 slug: zendesk-mock-server
-title: COpenAPI to Python Client, Part 2 — Mock Servers and Real Calls
+title: OpenAPI to Python Client, Part 2 — Mock Servers and Real Calls
 authors: [kaywin]
 tags: [openapi, swagger, python, mock-server, docs-as-code]
 ---
@@ -9,19 +9,21 @@ In our [previous article](https://kaywina.github.io/docs-layer/blog/zendesk-pyth
 
 In this follow-up, we’ll take things further:
 - Run a local mock server from the same OpenAPI file, so you get realistic JSON responses without an account.
-- Point your generated Python client at the mock and make real calls with `.sync() / .sync_detailed()`.
-- Add small touches (retry + environment variables) to improve security, portability, and stability. 
+- Point your generated Python client at the mock server.
+- Make a real server call with `sync_detailed()` that returns sample data.
 
 ---
 
 ## Why mock servers?
 
-Mock servers are incredibly useful for technical writers, developers, and testers. They let you:
+Mock servers are incredibly useful for technical writers, developers, and testers.
+
+They let you:
 - Explore API responses without touching production.
 - Work offline or before an API is deployed.
 - Develop code samples and tutorials safely.
 
-All you need is the OpenAPI spec you already have!
+All you need is the OpenAPI spec you already have from the previous article!
 
 ---
 
@@ -60,16 +62,16 @@ http://127.0.0.1:4010
 Every request returns JSON resposes shaped by the schema (and any example fields) in your spec.
 
 :::tip
-Why port 4010? That's the default mock server port, that's unlikely to conflict with common local services. If you dont specify a port, Prism uses 4010 by default. You can specify a different port using the `--port` flag.
+Why are we using port 4010? It's the default mock server port, which is unlikely to conflict with common local services. You can specify a different port using the `--port` flag. If you dont specify a port, Prism uses 4010 by default.
 :::
 
 ---
 
 ## Step 3: Point your Python client at the mock
 
-In our previous article, we generated an install a Python client (e.g. help_center_api_client). Now, set its base_url to the mock serve instead of Zendesk.
+In our previous article, we generated and installed a Python client (e.g. help_center_api_client). Now, set its base_url to the mock server and make a call.
 
-You can do this inside an examples script:
+You can do this inside an example script:
 
 ```python title="Python"
 # examples/demo_mock_call.py
