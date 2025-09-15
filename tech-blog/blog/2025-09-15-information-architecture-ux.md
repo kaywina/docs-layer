@@ -9,6 +9,7 @@ When most people hear information architecture (IA), they picture a table of con
 
 ```mermaid
 flowchart LR
+
   subgraph U[User and Context]
     Q[User questions and tasks]
   end
@@ -37,7 +38,10 @@ flowchart LR
     L2[Methods]:::method
     L3[Structure]:::struct
     L4[Outcomes]:::outcome
+    L5[Testing]:::feedback
   end
+
+  FA[Feedback and Analytics]
 
   Q --> CS
   Q --> CM
@@ -55,7 +59,7 @@ flowchart LR
   IA --> TS
   GOV --> CONF
 
-  O -. Feedback and Analytics .- Q
+  O --> FA --> Q
 
   %% Class definitions (note the colons)
 
@@ -64,12 +68,14 @@ flowchart LR
   classDef method fill:#b1e0ff,stroke:#333,stroke-width:1px;
   classDef struct fill:#c9f7b5,stroke:#333,stroke-width:1px;
   classDef outcome fill:#e0c2ff,stroke:#333,stroke-width:1px;
+  classDef feedback fill:#f9c78d,stroke:#333,stroke-width:1px,color:#000;
 
   %% Apply classes
   class Q user;
   class CS,CM,TT,MD method;
   class IA,XR,GOV struct;
   class F,TS,CONF outcome;
+  class FA feedback;
 
   linkStyle default stroke:#555,stroke-width:2.5px;
 ```
