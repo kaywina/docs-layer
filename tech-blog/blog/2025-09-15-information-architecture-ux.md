@@ -1,6 +1,6 @@
 ---
 slug: information-architecture-ux
-title: Information Architecture as a UX Practice
+title: Information Architecture as a User Experience Practice
 authors: [kaywin]
 tags: [information architecture, ia, documentation, user experience, ux]
 ---
@@ -9,6 +9,8 @@ When most people hear information architecture (IA), they picture a table of con
 
 ```mermaid
 flowchart LR
+  accTitle: Information Architecture as UX
+  accDescr: User questions flow into methods like card sorting, content modeling, tree testing, and metadata. These shape structure (navigation, cross-links, governance), which produces outcomes (findability, time-to-success, user confidence). Outcomes feed back into user questions through analytics and feedback.
 
   subgraph U[User and Context]
     Q[User questions and tasks]
@@ -79,6 +81,8 @@ flowchart LR
 
   linkStyle default stroke:#555,stroke-width:2.5px;
 ```
+
+*Figure: Information Architecture as UX.*   
 
 ## Why IA Belongs in UX
 
