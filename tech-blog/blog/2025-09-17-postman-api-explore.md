@@ -1,5 +1,5 @@
 ---
-slug: exploring-cve-api
+slug: postman-api-explore
 title: From Spec to Scan - Exploring a Security API with Postman
 authors: [kaywin]
 tags: [OpenAPI, Swagger, Postman, security, CVE]
@@ -47,7 +47,7 @@ With the **OpenAPI** spec in hand, we can use Postman to explore the API without
 
 Postman’s import feature understands OpenAPI and will automatically generate a collection of requests you can run and tweak.
 
-### Step 1. Import the Spec
+### Step 1: Import the Spec
 
 First, let's get you set up with the OpenAPI spec imported into Postman:
 - Open [Postman](https://www.postman.com/) and login to your account
@@ -58,7 +58,7 @@ First, let's get you set up with the OpenAPI spec imported into Postman:
 
 Postman will generate a new collection which you can access via the *left-hand sidebar*.
 
-### Step 2. Browse the Endpoints
+### Step 2: Browse the Endpoints
 
 Now that you've imported the spec into Postman, you can browse the API endpoints:
 - Expand the collection in Postman’s *left-hand sidebar*
@@ -69,7 +69,7 @@ Feel free to explore the API and check out the various endpoints available.
 
 ---
 
-### Step 3. Run a Sample Query
+### Step 3: Run a Sample Query
 
 Let’s try scanning a real URL:
 - Open the endpoint for `POST /api/vi/scan{baseURL}`
@@ -78,7 +78,7 @@ Let’s try scanning a real URL:
 - You'll also need to add a urlscan.io API key to the **Auth** tab:
 ![Screenshot showing Auth tab in Postman](/img/blog/urlscan-auth-tab.png)
 
-Make sure you select "API Key" as the **Auth Type** and paste your API Key into the **Value** field.
+Make sure you select "API Key" as the **Auth Type** and paste your real key into the **Value** field.
 
 :::tip
 To get your API Key, log into [urlscan.io](https://urlscan.io/) then click on **Settings & API** in the *left-hand sidebar*. Click the **New API Key** button, give it a name (i.e. "Postman Test"), then click **Create API Key*. Your new API key will be partially blurred out for privacy, but you can still copy and paste it into Postman.
@@ -86,3 +86,13 @@ To get your API Key, log into [urlscan.io](https://urlscan.io/) then click on **
 
 ---
 
+### Step 4 - View the report
+
+Now that you've successfully made the POST request, you can view the report:
+- Copy the **result** URL from the output in Postman:
+![Screenshot showing query result in Postman](/img/blog/postman-query-result.png)
+- Paste the report URL into a new browser tab
+
+It can take a minute or two for the report to be ready, so be patient if you can't access it immediately. Once available, the report should give you a variety of information about that URL, including which IPs in what countries were contacted and through which domains, any security certificates and their issueing authorities, and a variety of other useful facts and statistics.
+
+---
