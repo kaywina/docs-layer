@@ -2,7 +2,7 @@
 slug: postman-api-explore
 title: From Spec to Scan - Exploring a Security API with Postman
 authors: [kaywin]
-tags: [OpenAPI, Swagger, Postman, security, CVE]
+tags: [OpenAPI, Swagger, Postman, security]
 ---
 
 ## Introduction
