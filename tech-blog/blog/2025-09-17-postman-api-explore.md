@@ -23,7 +23,7 @@ By the end, you’ll not only see how urlscan.io can help with web security anal
 
 Before we begin, there are a couple of requirements you'll need:
 - A [Postman](https://www.postman.com/) account (a free account is fine; required to import, explore, and test the API)
-- A [urlscan.io](https://urlscan.io/) account (required to get an API key)
+- A [urlscan.io](https://urlscan.io/) account (free; required to get an API key)
 
 Once you have these two accounts set up, you can proceed to the next section.
 
@@ -119,6 +119,17 @@ As a technical writer, you can provide these snippets in your docs to help your 
 
 ---
 
+---
 
+## Conclusion
 
+In just a few steps, we went from a raw OpenAPI spec to running live security scans through Postman. By importing the urlscan.io specification, we were able to browse the API, authenticate with an API key, send a real scan request, and review a full report of how a website behaves online.
 
+This workflow highlights the power of **OpenAPI-driven development**:  
+- Specs provide a single source of truth.  
+- Postman makes exploration and testing approachable.  
+- Writers and developers can collaborate more easily when the docs and the requests come from the same foundation.
+
+For security teams, urlscan.io delivers immediate insight into the trustworthiness of a site. For technical writers, it’s a chance to showcase how modern tooling bridges the gap between raw specs and actionable knowledge.
+
+Next time you need to explain, test, or document an API—whether for security or any other domain—remember: start with the spec, and let your tools do the heavy lifting.
