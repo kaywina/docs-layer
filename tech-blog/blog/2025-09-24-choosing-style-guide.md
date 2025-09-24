@@ -21,11 +21,11 @@ Readers care more about clarity than which guide you choose, but most teams don�
 It ensures your content doesn’t sound like it’s written by a whole bunch of different people, even if it actually is. If you choose an existing style guide, you ***inherit credibility and avoid future decision fatigue***. If you write your own, you get a ***1:1 match for your own product, audience, and organizational voice.***
 
 ## Common Style Guides
-The most commonly-used style guides in technical writer are:
+The most commonly-used style guides in technical writing are:
 - [Microsoft Writing Style Guide](https://learn.microsoft.com/en-ca/style-guide/welcome/)
 - [Google Developer Documentation Style Guide](https://developers.google.com/style)
 - [Chicago Manual of Style](https://www.chicagomanualofstyle.org/home.html)
-- [AP Style Book](https://www.apstylebook.com/)
+- [AP Stylebook](https://www.apstylebook.com/)
 
 Each of these style guides has an ideal use case:
 | Style Guide | Primary Audience | Strengths | Drawbacks |
@@ -42,7 +42,7 @@ In addition to those big four, there are a couple others that may be worth consi
 - **[IBM Style Guide](https://ptgmedia.pearsoncmg.com/images/9780132101301/samplepages/0132101300.pdf)** - Focused on enterprise software
 
 :::tip
-Use [Vale CLI](https://vale.sh/) to lint your content for adherence to specific style guide.
+Use [Vale CLI](https://vale.sh/) to lint your content for adherence to a specific style guide.
 :::
 
 ## Defining an In-House Guide
@@ -55,7 +55,7 @@ There are two options:
 Common exceptions that work well include using bold for UI references (e.g. Click the **Finish** button to continue) and italics for positioning statements (e.g. in the *top-right corner* of the page).
 :::
 
-Regardless of the approach you choose, try to make it a ***lightweight living doc***, not a 200 page PDF. Keeping it concise makes it easier for your and your team to follow, and more likely that your docs will adhere to it.
+Regardless of the approach you choose, try to make it a ***lightweight living doc***, not a 200-page PDF. Keeping it concise makes it easier for you and your team to follow, and more likely that your docs will adhere to it.
 
 Generally, I recommend starting with an existing style guide to reduce the chance of scope creep and formalize best practices early. If you find that your addendum is becoming too unwieldy, then that’s a sign you may need a fully in-house solution.
 
@@ -85,7 +85,7 @@ Microsoft and Google style guides focus on international clarity and are good ch
 For companies that require more than one language (e.g. French and English in Canada), you'll likely need an extensive addendum to an existing guide, or a full in-house guide in practice.
 
 ## Practical Next Steps
-Here are some practical next steps you can take to getting started:
+Here are some practical next steps you can take to get started:
 - Pick one external style guide today.
 - Make a one-pager of product-specific rules.
 - Revisit your style guide once your team/docs scale.
