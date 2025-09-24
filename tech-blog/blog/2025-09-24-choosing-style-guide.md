@@ -84,6 +84,8 @@ Microsoft and Google style guides focus on international clarity and are good ch
 
 For companies that require more than one language (e.g. French and English in Canada), you'll likely need an extensive addendum to an existing guide, or a full in-house guide in practice.
 
+Here's a decision tree to help with your planning:
+
 ```mermaid
 flowchart TD
     A([Choosing a Style Guide]) --> B{Team size?}
@@ -106,6 +108,17 @@ flowchart TD
 
     H -- "Region-specific" --> R7[Hybrid + linter + checklists]
     H -- "Global" --> R8[Enterprise hybrid + localization kit]
+
+    classDef default fill:#fff,stroke:#333,stroke-width:1px,color:#000;
+    classDef start fill:#c9f7b5,stroke:#333,stroke-width:1px;
+    classDef decision fill:#b1e0ff,stroke:#333,stroke-width:1px;
+    classDef outcome fill:#e0c2ff,stroke:#333,stroke-width:1px;
+
+    class A start
+    class B,C,F,D,E,G,H decision
+    class R1,R2,R3,R4,R5,R6,R7,R8 outcome
+
+    linkStyle default stroke:#fbc02d,stroke-width:2px,color:#000
 ```
 
 ## Practical Next Steps
