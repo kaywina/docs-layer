@@ -84,6 +84,30 @@ Microsoft and Google style guides focus on international clarity and are good ch
 
 For companies that require more than one language (e.g. French and English in Canada), you'll likely need an extensive addendum to an existing guide, or a full in-house guide in practice.
 
+```mermaid
+flowchart TD
+    A([Choosing a Style Guide]) --> B{Team size?}
+    B -- "Solo" --> C{Scale speed?}
+    B -- "Team" --> F{Scale speed?}
+
+    C -- "Slow / occasional" --> D{Audience?}
+    C -- "Fast / weekly" --> E{Audience?}
+    F -- "Slow / occasional" --> G{Audience?}
+    F -- "Fast / weekly" --> H{Audience?}
+
+    D -- "Region-specific" --> R1[Borrowed guide + 1-page rules]
+    D -- "Global" --> R2[MS or Google + addendum]
+
+    E -- "Region-specific" --> R3[Hybrid guide + glossary]
+    E -- "Global" --> R4[Hybrid + linter + i18n rules]
+
+    G -- "Region-specific" --> R5[Team: base guide + addendum]
+    G -- "Global" --> R6[Team: MS or Google + glossary]
+
+    H -- "Region-specific" --> R7[Hybrid + linter + checklists]
+    H -- "Global" --> R8[Enterprise hybrid + localization kit]
+```
+
 ## Practical Next Steps
 Here are some practical next steps you can take to get started:
 - Pick one external style guide today.
