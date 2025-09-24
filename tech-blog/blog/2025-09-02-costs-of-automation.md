@@ -2,7 +2,7 @@
 slug: costs-of-automation
 title: The True Cost of Automating Technical Writing
 authors: [kaywin]
-tags: [technical-writing, docs-as-code, ai, communication, documentation, artificial-intelligence, automation]
+tags: [technical-writing, docs-as-code, ai, documentation, artificial-intelligence, automation]
 ---
 
 Automation is one of the great promises of our industry: faster release cycles, lower overhead, and content that seems to appear as if by magic. Tools that generate documentation from code or AI systems that produce polished text at the push of a button are marketed as silver bullets.
