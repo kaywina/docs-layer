@@ -6,7 +6,6 @@ tags: [
   technical-writing,
   docs-as-code,
   ai,
-  communication,
   documentation,
   artificial-intelligence,
   automation,
