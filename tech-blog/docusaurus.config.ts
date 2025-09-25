@@ -43,6 +43,7 @@ const config: Config = {
       },
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog/archive', label: 'Archive', position: 'left'},
         {
           href: 'https://github.com/kaywina/docs-layer',
           label: 'GitHub',
