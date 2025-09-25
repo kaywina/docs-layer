@@ -21,7 +21,9 @@ const config: Config = {
         docs: false, // no docs
         blog: {
           routeBasePath: '/blog',   // blog lives at /blog
-          showReadingTime: true,
+          showReadingTime: true, // show minutes to read at top of blog posts
+          blogSidebarCount: 'ALL', // show all posts in sidebar (vs. just recent)
+          blogSidebarTitle: 'All posts', // rename the nav sidebar title
         },
         pages: {},                  // allow /src/pages
         theme: {
@@ -41,6 +43,7 @@ const config: Config = {
       },
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog/archive', label: 'Archive', position: 'left'},
         {
           href: 'https://github.com/kaywina/docs-layer',
           label: 'GitHub',
