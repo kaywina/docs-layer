@@ -1,6 +1,6 @@
 ---
 slug: ste-standard-overview
-title: Simplified Technical English (ASD-STE100): Why Clarity Still Matters
+title: Simplified Technical English (ASD-STE100) - Why Clarity Still Matters
 authors: [kaywin]
 tags: [technical-writing, documentation, style guides]
 ---
@@ -16,6 +16,24 @@ Aircraft companies in the late 1970s were producing mountains of English-languag
 To get control of the language, European and North American organizations worked together on what became the AECMA Simplified English Guide in 1986. It later evolved into ASD-STE100, maintained by the **Aerospace, Security and Defence Industries Association of Europe (ASD)**.
 
 Each new release of the STE updates the rules and keeps the system aligned with how people actually write today.
+
+## STE in Industry
+
+Across many industries, organizations use STE to reduce human error, improve safety communication, and streamline translation workflows. By standardizing how complex information is written, STE helps teams maintain precision and understanding even in high-stakes, multilingual environments.
+
+The application of STE, however, can vary between industries. Here's a breakdown of how the standard differs when applied across it's three primary industries (aerospace, security, and defence):
+
+![STE by Industry](/img/blog/ste-across-industries.png)
+
+While the graphic above shows how ASD-STE100 takes shape across aerospace, security, and defence, it’s worth pausing to notice what ties them together. Each industry adopts Simplified Technical English for slightly different reasons—safety, clarity, or standardization—but the underlying principle is the same: reduce ambiguity so critical information can travel cleanly between people, systems, and languages.
+
+- Aerospace treats STE as a **safety language** — focused on precision in maintenance and operations.
+- Security uses it as a **clarity language** — ensuring accuracy during high-pressure responses.
+- Defence applies it as a **standardization language** — unifying documentation across borders and systems.
+
+![STE Industry Overview](/img/blog/ste-industries-overview.png)
+
+Together, these three roots of ASD show how the same linguistic principles scale from physical maintenance to digital defence.
 
 ## How the Standard Works
 
