@@ -11,6 +11,8 @@ Although it worked at Klue, creating an in-house style guide completely from the
 
 Whether you’re a technical writer creating a new knowledge base from scratch, a producer at a start-up doing multiple jobs and wondering where to start, or anyone else needing to decide on the standards for learning content, this guide will help you choose how to define your style.
 
+---
+
 ## Why Style Guides Matter
 
 Readers care more about clarity than which guide you choose, but most teams don’t want to reinvent the wheel. The decisions you make when starting your documentation will shape the future of your learning materials. A style guide helps you maintain:
@@ -19,6 +21,8 @@ Readers care more about clarity than which guide you choose, but most teams don�
 - Scalability
 
 It ensures your content doesn’t sound like it’s written by a whole bunch of different people, even if it actually is. If you choose an existing style guide, you ***inherit credibility and avoid future decision fatigue***. If you write your own, you get a ***1:1 match for your own product, audience, and organizational voice.***
+
+---
 
 ## Common Style Guides
 The most commonly-used style guides in technical writing are:
@@ -45,6 +49,8 @@ In addition to those big four, there are a couple others that may be worth consi
 Use [Vale CLI](https://vale.sh/) to lint your content for adherence to a specific style guide.
 :::
 
+---
+
 ## Defining an In-House Guide
 If none of the above style guides covers the full needs of your organization, then you should define an in-house style guide. 
 There are two options:
@@ -58,6 +64,8 @@ Common exceptions that work well include using bold for UI references (e.g. Clic
 Regardless of the approach you choose, try to make it a ***lightweight living doc***, not a 200-page PDF. Keeping it concise makes it easier for you and your team to follow, and more likely that your docs will adhere to it.
 
 Generally, I recommend starting with an existing style guide to reduce the chance of scope creep and formalize best practices early. If you find that your addendum is becoming too unwieldy, then that’s a sign you may need a fully in-house solution.
+
+---
 
 ## How to Decide on a Style Guide
 When deciding on a style guide to start with, here are some questions to ask:
@@ -120,6 +128,8 @@ flowchart TD
 
     linkStyle default stroke:#fbc02d,stroke-width:2px,color:#000
 ```
+
+---
 
 ## Practical Next Steps
 Here are some practical next steps you can take to get started:
