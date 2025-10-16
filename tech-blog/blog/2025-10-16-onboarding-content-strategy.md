@@ -19,7 +19,7 @@ It worked. Users began moving through the flow without confusion. Support reques
 
 And I realized something important:
     
-    **Good onboarding content isn’t just clear — it’s choreographed.**
+> Good onboarding content *isn’t just clear* — it’s **choreographed**.
 
 That insight is where documentation overlaps with **content strategy** and **UX theory**.
 
@@ -150,4 +150,23 @@ Apply Miller’s Law: keep steps and sequences chunked into manageable units.
 - **Design for association.**
 Use the Law of Proximity to group related topics and reinforce continuity.
 
-Together, these principles create documentation that *flows* — not just text that sits there.
+Together, these principles create documentation that *flows* smoothly, helping to improve reader retention and comprehension significantly.
+
+---
+
+# Closing Reflection
+
+Good onboarding docs are like a *well-marked trail*: they give you **just enough** information to keep moving, but never so much that you stop walking.
+
+> The best documentation isn’t a library — it’s a *path*. Every step should **teach, reassure, and point** to the next horizon.
+
+---
+
+# References
+
+- Nielsen Norman Group (2006). F-Shaped Pattern of Reading on the Web.
+https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/
+- Miller, G. A. (1956). The Magical Number Seven, Plus or Minus Two.
+https://psycnet.apa.org/doiLanding?doi=10.1037%2Fh0043158
+- Interaction Design Foundation. Law of Proximity in UX Design.
+https://www.interaction-design.org/literature/topics/law-of-proximity
