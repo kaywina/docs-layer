@@ -1,19 +1,23 @@
 ---
 slug: onboarding-content-strategy
-title: Designing for Flow: Applying UX Theory to Onboarding Documentation
+title: Designing for Flow - Applying UX Theory to Onboarding Documentation
 authors: [kaywin]
 tags: [technical-writing, documentation, content strategy, onboarding]
 ---
 
 When I first started working on user onboarding content, I inherited what many technical writers eventually encounter: a **help center maze**.
 
-Every topic linked to everything else. Setup articles linked to configuration guides that linked to troubleshooting docs that linked back to setup again. The intention was good — make sure users have every option at their fingertips — but in practice, it produced chaos.
+Every topic linked to everything else. Setup articles linked to configuration guides that linked to troubleshooting docs that linked back to setup again.
+
+The intention was good — make sure users have every option at their fingertips — but in practice, it produced chaos.
 
 New users didn’t know where to start or what to do next. They clicked, skimmed, clicked again, and left. The were overwhelmed almost immediately.
 
 So I redesigned the onboarding journey — not just by rewriting, but by **restructuring.** Instead of scattering information across dozens of disconnected articles, I created a *guided path*: docs for each specific type of user structured in a sequential order. Each doc focused on a single stage of setup; each one leading naturally to the next.
 
-It worked. Users began moving through the flow without confusion. Support requests dropped, as did negative reactions to the onboarding docs. And I realized something important:
+It worked. Users began moving through the flow without confusion. Support requests dropped, as did negative reactions to the onboarding docs.
+
+And I realized something important:
     
     **Good onboarding content isn’t just clear — it’s choreographed.**
 
@@ -23,3 +27,21 @@ Below, I’ll share how three classic design principles — the F-shaped reading
 
 ---
 
+# The F-Shaped Reading Pattern: Designing for Attention
+
+Eye-tracking studies by the Nielsen Norman Group show that users scan web pages in an **F-shaped pattern**. They read the first few lines fully, then skim down the left margin, making shorter horizontal glances as they go.
+
+For onboarding docs, that means:
+- Users focus most intensely on the **opening lines** and **left-aligned structure** (headings, callouts, numbered steps).
+- Critical context and next-step links should appear where the eye naturally lands — not buried below a screenshot or paragraph block.
+
+When I redesigned our onboarding content, I made sure each article followed this visual rhythm:
+- A **one-line orientation** at the top (“In this step, you’ll connect your account.”)
+- Numbered steps aligned along the **left margin** — no bullets buried mid-screen.
+- A **clearly visible callout** stating the audience of the doc, and containing one or two (at most) **highly relevant links** within the first F-pattern sweep.
+
+By meeting readers where their eyes already go, we built momentum through attention rather than demanding it.
+
+Each doc included a link to the next in the linear onboarding flow in a “Next Steps” section at the bottom. In retrospect, I would include that link within the callout in the introductory section, to be better captured by F-pattern reading. Live and learn!
+
+---
