@@ -45,3 +45,26 @@ By meeting readers where their eyes already go, we built momentum through attent
 Each doc included a link to the next in the linear onboarding flow in a “Next Steps” section at the bottom. In retrospect, I would include that link within the callout in the introductory section, to be better captured by F-pattern reading. Live and learn!
 
 ---
+
+# Miller’s Law: Designing for Memory
+
+Psychologist George Miller’s classic research suggests that people can hold about **7 ± 2 items** in working memory at once.
+
+This idea — known as **Miller’s Law** — is why phone numbers, lists, and even stories often come in sets of 5–9 elements.
+
+Applied to documentation, it becomes a principle of *chunking*:
+- Limit each article to roughly **five to seven major steps or ideas**.
+- Treat each doc as one “memory unit” in a larger learning path.
+- Avoid overloading users with branching conditions (“If this, do that… unless you did this other thing.”).
+
+
+There were a few ways I applied Miller’s Law to the onboarding flow:
+1. Keep all bullet lists within the 5-7 point range whenever possible.
+2. Ensure users get the most important information within the first 5 article topics.
+3. Chunk content into shorter articles with a self-contained focus, so users could digest one and leave, then come back later to continue without feeling lost.
+
+That structure wasn’t arbitrary — it matched Miller’s Law. Each doc was short enough to complete in 3-5 minutes, and the sequence was long enough to feel like progress. Users would learn something valuable each time they stepped into the flow, even if just for a few short time.
+
+As a result users finished the self-serve onboarding process faster, and they **remembered** how the system fit together.
+
+---
