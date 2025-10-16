@@ -87,3 +87,43 @@ Group onboarding materials into a **dedicated container or section** rather than
 This relatively small amount of visual discipline had an outsized effect. Users stopped wandering off to unrelated articles because the design itself suggested continuity.
 
 ---
+
+# From Maze to Map: Before and After
+
+Here’s a visualization of how onboarding content structure becomes simpler when structured in a logical sequential flow:
+
+```mermaid
+graph TD
+A[Old Model: Webbed Links Everywhere] --> B[Setup Guide]
+A <--> C[Configuration]
+A <--> D[Troubleshooting]
+B <--> C
+C <--> A
+D <--> C
+
+E[New Model: Guided Flow] --> F[Step 1: Setup]
+F --> G[Step 2: Connect]
+G --> H[Step 3: Invite Team]
+H --> I[Step 4: Customize]
+I --> J[Step 5: Launch]
+
+classDef default fill:#fff,stroke:#333,stroke-width:1px,color:#000;
+
+classDef badStart fill:#f7b5b5,stroke:#333,stroke-width:1px;
+classDef badDecision fill:#f7d1b5,stroke:#333,stroke-width:1px;
+
+classDef goodStart fill:#c9f7b5,stroke:#333,stroke-width:1px;
+classDef goodDecision fill:#b1e0ff,stroke:#333,stroke-width:1px;
+classDef goodOutcome fill:#e0c2ff,stroke:#333,stroke-width:1px;
+
+class A badStart
+class B,C,D badDecision
+
+class E goodStart
+class F,G,H,I goodDecision
+class J goodOutcome
+```
+
+The difference is less about hierarchy and more about **direction**. The webbed model assumes the user knows where to go; the sequential model *shows* them.
+
+---
