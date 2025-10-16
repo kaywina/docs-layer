@@ -68,3 +68,22 @@ That structure wasn’t arbitrary — it matched Miller’s Law. Each doc was sh
 As a result users finished the self-serve onboarding process faster, and they **remembered** how the system fit together.
 
 ---
+
+# The Law of Proximity: Designing for Association
+The **Law of Proximity**, one of the *Gestalt principles of perception*, states that elements placed near each other are perceived as related.
+
+In practice, this applies at two levels in documentation:
+1. **Macro-level (information architecture)**:
+Group onboarding materials into a **dedicated container or section** rather than scattering them throughout the help center. When users see articles physically close together, they infer a logical relationship — “these belong to the same journey.”
+
+2. **Micro-level (page design)**:
+ Within each doc, keep related steps, visuals, and outcomes grouped tightly. For example:
+- Place screenshots immediately after the step they illustrate.
+- Cluster “Next Steps” and “Troubleshooting” links in clearly labeled blocks.
+- Provide solutions together with descriptions of errors and obstacles.
+- Use consistent headings and spacing to visually reinforce containment.
+- Avoid linking users to other documentation that is only peripherally related.
+
+This relatively small amount of visual discipline had an outsized effect. Users stopped wandering off to unrelated articles because the design itself suggested continuity.
+
+---
