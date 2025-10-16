@@ -127,3 +127,27 @@ class J goodOutcome
 The difference is less about hierarchy and more about **direction**. The webbed model assumes the user knows where to go; the sequential model *shows* them.
 
 ---
+
+# Measuring the Impact
+
+Once implemented, the results were tangible:
+- **Reduced onboarding-related support tickets** — users could self-serve confidently.
+- **Improved click-through rates** — users followed up on the most important related links instead of bouncing.
+- **Positive feedback** from customer success teams and admins who onboarded new hires and customers.
+
+These metrics reflected not just better writing, but better **content strategy** — a system designed around how people *see, think, and learn*.
+
+---
+
+# Takeaways for Writers & Teams
+
+You don’t need to overhaul an entire docs site to apply these principles. Start small:
+
+- **Design for attention.**
+Use the F-pattern to position key information where users will actually look.
+- **Design for memory.**
+Apply Miller’s Law: keep steps and sequences chunked into manageable units.
+- **Design for association.**
+Use the Law of Proximity to group related topics and reinforce continuity.
+
+Together, these principles create documentation that *flows* — not just text that sits there.
