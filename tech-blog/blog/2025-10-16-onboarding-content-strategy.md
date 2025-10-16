@@ -164,9 +164,6 @@ Good onboarding docs are like a *well-marked trail*: they give you **just enough
 
 # References
 
-- Nielsen Norman Group (2006). F-Shaped Pattern of Reading on the Web.
-https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/
-- Miller, G. A. (1956). The Magical Number Seven, Plus or Minus Two.
-https://psycnet.apa.org/doiLanding?doi=10.1037%2Fh0043158
-- Interaction Design Foundation. Law of Proximity in UX Design.
-https://www.interaction-design.org/literature/topics/law-of-proximity
+- Interaction Design Foundation. [Law of Proximity in UX Design](https://www.interaction-design.org/literature/topics/law-of-proximity).
+- Miller, G. A. (1956). [The Magical Number Seven, Plus or Minus Two](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fh0043158).
+- Nielsen Norman Group (2006). [F-Shaped Pattern of Reading on the Web](https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/).
