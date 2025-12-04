@@ -31,8 +31,38 @@ In SaaS, user-facing docs are inseparable from the product experience. Users loo
 
 - **Metrics-driven:** Knowledge-Centered Service (KCS) practices, self-service success, ticket deflection, onboarding speed.
 
-- **Multiple personas:** Admins, curators, end users, support agents, customer success.
+- **Multiple personas:** Admins, end users, support agents, customer success, etc.
 
 In SaaS, documentation is fundamentally about **reducing friction.**  Every page is an opportunity to prevent a ticket, shorten a setup process, or help a customer feel empowered instead of stuck.
 
 The **writer’s role** blends information architecture (IA), user experience (UX) copy, support alignment, and relationship-building across product, engineering, and customer teams.
+
+---
+
+# Game Engine Documentation: Deep Technical Knowledge Meets Learning Design
+
+Documentation for game engines like Unity or Unreal is an entirely different challenge. Instead of just describing user interface (UI) workflows, writers are often explaining core engine systems, scripting APIs, rendering pipelines, physics behaviour, cross-platform quirks, asset workflows, and dozens of interlocking tools.
+
+A game engine is essentially **a platform for building worlds**, and the docs have to match that level of complexity.
+
+## What defines game engine documentation:
+
+- **Highly technical conceptual writing:** Explanations of how systems work, not just how to use them.
+
+- **API references:** Thousands of entries, each requiring accuracy and clarity.
+
+- **Code samples everywhere:** Real examples that devs can copy, paste, and modify.
+
+- **Educational layer:** Tutorials, samples, guided projects, learning pathways.
+
+- **Versioning pain:** Documentation breaks with every engine update.
+
+Game engine writers operate somewhere between:
+- technical educators,
+- platform engineers,
+- developer relations,
+- and curriculum designers.
+
+Where SaaS writers help users operate a product, game engine writers help creators **build entire experiences**. While there can definitely be overlap, at its root game engine documentation requires a different mental model, and a different writing craft.
+
+---
