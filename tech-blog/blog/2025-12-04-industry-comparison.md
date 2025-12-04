@@ -1,6 +1,6 @@
 ---
 slug: industry-comparison
-title: Three Worlds, Three Playbooks - SaaS, Engine Development, and Game Studios
+title: Three Worlds, Three Playbooks - SaaS, Game Engines, and Studios
 authors: [kaywin]
 tags: [technical-writing, documentation, content strategy, information architecture, SaaS]
 ---
