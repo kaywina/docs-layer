@@ -66,3 +66,32 @@ Game engine writers operate somewhere between:
 Where SaaS writers help users operate a product, game engine writers help creators **build entire experiences**. While there can definitely be overlap, at its root game engine documentation requires a different mental model, and a different writing craft.
 
 ---
+
+# Game Studio Documentation: Pipelines, Processes, and the Hidden Machinery of Production
+
+If game engine documentation is mostly outward-facing, game studio documentation is the opposite: it’s the **invisible infrastructure** that keeps a production pipeline from collapsing.
+
+AAA game development involves hundreds of people across art, engineering, design, animation, writing, audio, QA, localization, and more. Each discipline often uses internal tools, custom pipelines, proprietary editors, and studio-specific engines.
+
+Much of this tooling has rough edges or minimal UX, and so internal documentation therefore becomes indispensable.
+
+## What defines game studio documentation:
+
+- **Primarily internal audiences:** Designers, artists, level builders, QA testers, technical directors. User-facing documentation (manuals, quick references, maps, etc.) require heavy graphic design and bridge the gap between technical writing and marketing.
+
+- **Process-heavy content:** Build pipelines, asset workflows, naming conventions, version control practices, approval paths.
+
+- **Tooling documentation:** Internal editors, exporters, shaders, debugging tools, automation scripts.
+
+- **High change velocity**: Production pipelines evolve mid-project.
+
+- **Assumed or informal knowledge risk risk:** Studios often lack dedicated writers; knowledge lives in wikis or people’s heads.
+
+Technical writing for game studios is less about customers and shipping a polished product — it’s about keeping the **team** functioning.
+
+Bad documentation at a studio means high internal costs: missed deadlines, duplicated work, broken builds, integration failures, and staff (artists, designers, engineers, etc.) being blocked.
+
+Here, a writer becomes a **systems stabilizer**, turning tacit knowledge into shared practice.
+
+---
+
