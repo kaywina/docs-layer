@@ -5,6 +5,18 @@ authors: [kaywin]
 tags: [technical-writing, documentation, content strategy, information architecture, SaaS]
 ---
 
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<ThemedImage
+  alt="STE Across Industries"
+  sources={{
+    light: useBaseUrl('/img/blog/three-industries-light.png'),
+    dark:  useBaseUrl('/img/blog/three-industries-dark.png'),
+  }}
+  style={{display:'block', maxWidth:'100%'}}
+/>
+
 ***What SaaS Docs, Game Engine Docs, and Game Studio Docs Teach Us About Technical Writing***
 
 Every technical writer knows that documentation can mean wildly different things depending on where you work. Writing for a Software as a Service (SaaS) platform, a game engine, and a AAA game studio all fall under the same discipline. The expectations, processes, and audiences however, and even the cultural norms of the work, can feel like entirely different ecosystems.
@@ -132,6 +144,15 @@ Docs are never finished; they evolve alongside the product or pipeline.
 
 5. **Reducing cognitive load**
 The best documentation makes complex things feel workable rather than overwhelming.
+
+<ThemedImage
+  alt="STE Across Industries"
+  sources={{
+    light: useBaseUrl('/img/blog/industry-intersections-light.png'),
+    dark:  useBaseUrl('/img/blog/industry-intersections-dark.png'),
+  }}
+  style={{display:'block', maxWidth:'100%'}}
+/>
 
 ---
 
