@@ -5,7 +5,7 @@ authors: [kaywin]
 tags: [technical-writing, documentation, content strategy, information architecture, SaaS]
 ---
 
-*What SaaS Docs, Game Engine Docs, and Game Studio Docs Teach Us About Technical Writing*
+***What SaaS Docs, Game Engine Docs, and Game Studio Docs Teach Us About Technical Writing***
 
 Every technical writer knows that documentation can mean wildly different things depending on where you work. Writing for a Software as a Service (SaaS) platform, a game engine, and a AAA game studio all fall under the same discipline. The expectations, processes, and audiences however, and even the cultural norms of the work, can feel like entirely different ecosystems.
 
@@ -94,4 +94,93 @@ Bad documentation at a studio means high internal costs: missed deadlines, dupli
 Here, a writer becomes a **systems stabilizer**, turning tacit knowledge into shared practice.
 
 ---
+
+## The Key Differences (and Why They Exist)
+
+| **Dimension**        | **SaaS Docs**                                  | **Game Engine Docs**                               | **Game Studio Docs**                                   |
+|----------------------|------------------------------------------------|----------------------------------------------------|---------------------------------------------------------|
+| **Audience**         | Non-technical admins & end users              | Developers, artists, technical creators           | Internal multidisciplinary teams                         |
+| **Primary Goal**     | Reduce friction, deflect tickets, onboard users | Teach creators how to use a complex platform       | Document workflows so production stays on track         |
+| **Doc Style**        | Task-focused                                  | Conceptual + API + tutorials                      | Process documents, pipeline guides, tool instructions   |
+| **Cadence**          | Constant                                      | Release-driven                                     | Production-cycle driven                                 |
+| **Knowledge Sources** | PMs, Designers, Support                       | Engineers, technical artists                       | Pipeline engineers, technical directors                 |
+| **Risks of Poor Docs**| Tickets, churn, onboarding failures           | Engine misuse, bugs, integration issues            | Production delays, tool misuse, build failures          |
+
+These differences exist because each domain has a different **definition of success**:
+
+- In SaaS, success = fewer issues and faster time-to-value for customers.
+- In game engines, success = creators can build efficiently and effectively.
+- In game studios, success = production is smooth enough to ship on time.
+
+---
+
+# Where All Three Worlds Overlap
+
+Despite the differences, strong technical writing in any context relies on:
+
+1. **Clear information architecture**
+Whether it’s a knowledge base or a pipeline wiki, structure matters.
+
+2. **Semantic empathy**
+Understanding how users think and what they’re actually trying to do is universal.
+
+3. **Partnership across disciplines**
+Writers must translate between engineering, design, and users.
+
+4. **Continuous improvement**
+Docs are never finished; they evolve alongside the product or pipeline.
+
+5. **Reducing cognitive load**
+The best documentation makes complex things feel workable rather than overwhelming.
+
+---
+
+# Transitioning Between These Industries
+
+Writers often wonder whether switching between SaaS and the games industry is possible. Here’s what you'll need to make the change:
+
+## Going from SaaS → Game Engines
+
+You’ll need:
+- deeper technical knowledge
+- experience with code samples
+- confidence describing system architectures
+
+Your workflow skills, IA instincts, and user empathy will transfer beautifully.
+
+## Going from SaaS → Game Studios
+
+You’ll need:
+- comfort writing for internal audiences
+- tolerance for ambiguity
+- ability to extract informal knowledge
+
+You already have experience documenting tools and workflows. Game studios desperately need that.
+
+## Going from Game Studios → SaaS
+
+You’ll need:
+- clearer, more user-facing writing style
+- comfort with fast, continuous content updates
+- product and customer-oriented mindset
+
+Your process documentation skills will shine, and the audience shift might feel refreshing: fewer acronyms, fewer brittle workflows, and more predictable products.
+
+---
+
+# Conclusion: One Discipline, Many Worlds
+
+Technical writing is a single profession, but it lives inside wildly different ecosystems.
+
+- SaaS docs sit closest to the customer.
+- Game engine docs sit closest to the technology.
+- Game studio docs sit closest to the production pipeline.
+
+Each world shapes its writers in unique ways. Each one asks different questions, demands different strengths, and defines “good documentation” differently.
+
+But in all three, the writer’s core contribution remains the same:
+
+***Make the complex knowable. Make the invisible visible. Help people do the work that matters.***
+
+If this is your craft, you’re already part of all three worlds — even if you’ve only worked in one.
 
