@@ -110,7 +110,7 @@ Here, a writer becomes a **systems stabilizer**, turning tacit knowledge into sh
 
 ---
 
-## The Key Differences (and Why They Exist)
+## The Key Differences
 
 | **Dimension**        | **SaaS Docs**                                  | **Game Engine Docs**                               | **Game Studio Docs**                                   |
 |----------------------|------------------------------------------------|----------------------------------------------------|---------------------------------------------------------|
@@ -123,13 +123,14 @@ Here, a writer becomes a **systems stabilizer**, turning tacit knowledge into sh
 
 These differences exist because each domain has a different **definition of success**:
 
+**Why these differences exist:**
 - In SaaS, success = fewer issues and faster time-to-value for customers.
 - In game engines, success = creators can build efficiently and effectively.
 - In game studios, success = production is smooth enough to ship on time.
 
 ---
 
-# Where All Three Worlds Overlap
+## Where All Three Worlds Overlap
 
 Despite the differences, strong technical writing in any context relies on:
 
@@ -192,7 +193,43 @@ Your process documentation skills will shine, and the audience shift might feel 
 
 ---
 
-## Conclusion: One Discipline, Many Worlds
+## Games-as-a-Service (GaaS)
+***The Hybrid Documentation Ecosystem***
+
+While traditional game studios ship a product and (mostly) move on, Games-as-a-Service (GaaS) studios operate much more like SaaS companies: they release continuous updates, run seasonal content, manage live operations, and maintain a complex online ecosystem long after launch.
+
+Like SaaS companies, GaaS companies **never stop shipping**. These products are still games though, and consequently are deeply tied to game production processes. As a result, the documentation challenges are a hybrid of both worlds.
+
+**What defines GaaS documentation:**
+
+- **Live, continual updates:** Patch notes, seasonal guides, and balance changes roll out weekly or monthly.
+
+- **Dual audiences:** Writers often support both internal developers and external players.
+
+- **Operational complexity:** Live-ops workflows, rollback procedures, and incident playbooks resemble SRE documentation.
+
+- **Community impact:** Changes affect player meta, economy, and competitive balance — clarity is crucial.
+
+- **Cross-team communication:** Docs often involve engineering, design, QA, community, support, and analytics.
+
+GaaS writers must think like SaaS communicators, game designers, and live-ops engineers simultaneously. It’s one of the most interdisciplinary forms of documentation work in the industry.
+
+**How GaaS compares:**
+
+- **Like SaaS:** frequent updates, user-facing documentation, continuous delivery
+
+- **Like game studios:** heavy internal tooling, content pipelines, complex system interactions
+
+- **Like neither:** real-time operations, incident response documentation, player meta management
+
+
+In GaaS documentation isn’t just support, it’s part of how the game stays alive and the ecosystem thrives.
+
+
+---
+
+## Conclusion
+***One Discipline, Many Worlds***
 
 Technical writing is a single profession, but it lives inside wildly different ecosystems.
 
@@ -206,5 +243,5 @@ But in all three, the writer’s core contribution remains the same:
 
 ***Make the complex knowable. Make the invisible visible. Help people do the work that matters.***
 
-If this is your craft, you’re already part of all three worlds — even if you’ve only worked in one.
+If this is your craft, you’re already part of all three worlds, even if you’ve only worked in one.
 
