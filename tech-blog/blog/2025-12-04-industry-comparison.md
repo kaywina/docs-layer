@@ -193,7 +193,7 @@ Your process documentation skills will shine, and the audience shift might feel 
 
 ---
 
-## Games-as-a-Service (GaaS)
+## Games-as-a-Service
 ***The Hybrid Documentation Ecosystem***
 
 While traditional game studios ship a product and (mostly) move on, Games-as-a-Service (GaaS) studios operate much more like SaaS companies: they release continuous updates, run seasonal content, manage live operations, and maintain a complex online ecosystem long after launch.
