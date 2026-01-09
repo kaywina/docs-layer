@@ -9,6 +9,19 @@ Extended Reality (XR) products challenge many assumptions that traditional softw
 
 In a recent report from The Docs Layer, [**Best Practices for Technical Writers Documenting XR Products**](/pdf/docs-layer-xr-best-practices.pdf), we explored how documentation must adapt to the realities of VR, AR, and mixed reality. This article highlights a few of the most important takeaways for technical writers working in immersive environments.
 
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<ThemedImage
+  alt="XR Best Practices"
+  sources={{
+    light: useBaseUrl('/img/blog/xr-best-practices-light.png'),
+    dark:  useBaseUrl('/img/blog/xr-best-practices-dark.png'),
+  }}
+  style={{display:'block', maxWidth:'100%'}}
+/>
+
+
 ---
 
 ## 1. Documentation Must Live Inside the Experience
