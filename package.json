@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@docusaurus/theme-mermaid": "3.8.1",
+    "@docusaurus/theme-mermaid": "^3.9.2",
     "mermaid": "^11.11.0"
   }
 }
