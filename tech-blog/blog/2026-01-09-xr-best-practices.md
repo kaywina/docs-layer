@@ -7,7 +7,7 @@ tags: [technical-writing, documentation, best practices, virtual reality, augmen
 
 Extended Reality (XR) products challenge many assumptions that traditional software documentation relies on. When users are wearing a headset, moving through physical space, and interacting with interfaces in three dimensions, static help articles and long-form explanations quickly break down.
 
-In a recent report from The Docs Layer, **Best Practices for Technical Writers Documenting XR Products**, we explored how documentation must adapt to the realities of VR, AR, and mixed reality. This article highlights a few of the most important takeaways for technical writers working in immersive environments.
+In a recent report from The Docs Layer, [**Best Practices for Technical Writers Documenting XR Products**](/pdf/docs-layer-xr-best-practices.pdf), we explored how documentation must adapt to the realities of VR, AR, and mixed reality. This article highlights a few of the most important takeaways for technical writers working in immersive environments.
 
 ---
 
@@ -53,4 +53,4 @@ As XR adoption grows in gaming, enterprise training, healthcare, and education, 
 
 For a deeper dive, including platform-specific guidance for Unity, Unreal, HoloLens, and Meta Quest, you can read the full report here:
 
-**Best Practices for Technical Writers Documenting XR Products**
+[**Best Practices for Technical Writers Documenting XR Products**](/pdf/docs-layer-xr-best-practices.pdf)
